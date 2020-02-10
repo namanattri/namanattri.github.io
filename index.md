@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Naman Attri"
 ---
 
-## You're ready to go!
+## Naman Attri
 
-Start developing your Jekyll website.
+My Portfolio & Blog Coming Soon!!.
