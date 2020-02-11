@@ -1,0 +1,5 @@
+---
+layout: post
+categories: Random
+---
+This is my first post. Stay tuned for things coming up.

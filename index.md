@@ -1,8 +1,3 @@
 ---
-layout: default
-title: "Naman Attri"
+layout: home
 ---
-
-## Naman Attri
-
-My Portfolio & Blog Coming Soon!!.
