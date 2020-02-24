@@ -54,3 +54,15 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
 end
 ```
+
+# Bundler
+Bundler installs the gems that are listed in the Gemfile. Used to lock dependency versions across different instances of the same project running in different environments.
+```bash
+# when using Gemfile
+cd proj1
+bundle install
+bundle exec jekyll serve
+
+# when not using Gemfile
+jekyll serve
+```
