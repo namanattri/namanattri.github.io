@@ -3,12 +3,9 @@ layout: post
 categories: jekyll cheatsheet
 author: Naman Attri
 ---
-Source: <a href="https://jekyllrb.com/docs/" target="_blank">jekyll</a>
-
-# What is jekyll?
 Jekyll is a static site generator. We can use simple markdown to create static web pages without using any backend database.
 
-# Installation
+## Installation
 
 Install ruby on the OS of your liking. Below are the instructions for ubuntu:
 ```bash
@@ -24,7 +21,7 @@ gem install jekyll
 gem install bundler
 ```
 
-# Create project
+## Create project
 CD into the directory you prefer:
 ```bash
 jekyll new proj1
@@ -35,14 +32,14 @@ bundle exec jekyll serve
 ```
 Site will be running on <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
 
-# Gems
+## Gems
 Gems are to ruby what packages are to nodejs.
 ```bash
 gem install bundler
 gem install a0-tzmigration-ruby
 ```
 
-# Gemfile
+## Gemfile
 Gemfile contains list of gems that our site is dependent on. Gemfile is to ruby what package.json is to nodejs.
 ```rb
 source "https://rubygems.org"
@@ -55,7 +52,7 @@ group :jekyll_plugins do
 end
 ```
 
-# Bundler
+## Bundler
 Bundler installs the gems that are listed in the Gemfile. Used to lock dependency versions across different instances of the same project running in different environments.
 ```bash
 # when using Gemfile
@@ -66,3 +63,5 @@ bundle exec jekyll serve
 # when not using Gemfile
 jekyll serve
 ```
+
+Source: <a href="https://jekyllrb.com/docs/" target="_blank">jekyll</a>
