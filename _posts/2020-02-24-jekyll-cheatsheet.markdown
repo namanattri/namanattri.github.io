@@ -34,3 +34,23 @@ cd proj1
 bundle exec jekyll serve
 ```
 Site will be running on <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
+
+# Gems
+Gems are to ruby what packages are to nodejs.
+```bash
+gem install bundler
+gem install a0-tzmigration-ruby
+```
+
+# Gemfile
+Gemfile contains list of gems that our site is dependent on. Gemfile is to ruby what package.json is to nodejs.
+```rb
+source "https://rubygems.org"
+
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+end
+```
